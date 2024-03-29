@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educative</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.8.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- script config -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                backgroundImage: {
+                'footer-texture': "url('/img/footer-texture.png')",
+                }
+                
+              }
+            }
+          }
+        }
+      </script>
+
+      <style>
+      body{
+          font-family: "Outfit", sans-serif;
+      }
+      .btn{
+        background-color: #3A9DD2;
+        padding: '16px, 24px, 16px, 24px',
+      }
+
+    .btn-1{
+      width:184px;
+      height:56px;
+      padding: 16px 24px 16px 24px;
+      border-radius: 8px 8px 8px 8px;
+      background-color: #3A9DD2;
+      border: 1px solid #3A9DD2
+  
+      }
+      .btn-2{
+      width:159px;
+      height:56px;
+      padding: 16px 24px 16px 24px;
+      border-radius: 8px 8px 8px 8px;
+      border: 1px solid #3A9DD2
+      }
+      
+      </style>
+      
+</body>
+</html>
+  <header class="md:container md:mx-auto bg-[#F4F1E9]">
+    <!-- nav-section -->
+    <nav class=" px-12 lg:px-28 bg-bl">
+      <div class="navbar  ">
+        <div class="flex-1 ">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-bese rounded-box w-52">
+              <li><a class="text-[#3A9DD2]">Home</a></li>
+              <li><a>About us</a></li>
+              <li><a>Services</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="flex gap-1">
+            <img class="w-[40px] h-[40px] mt-2" src="/images/educative-Logo.png" alt="">
+            <a class=" font-semibold text-[36px]"><span class="text-[#3A9DD2]">Edu</span>cative</a>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex  ">
+          <ul class="menu menu-horizontal text-xl px-1 ">
+            <li><a class="text-[#3A9DD2]">Home</a></li>
+            <li><a>About us</a></li> 
+            <li><a>Services</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class=" flex gap-2">
+          <a href=""><img src="/images/Outline/Icon.png" alt=""></a>
+          <button class=" w-[193px] h-[57px] btn font-semibold text-white hover:bg-black text-sm">Login/Registration</button>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <section class=" py-24 ">
+      <div class="flex px-12 flex-col lg:flex-row ">
+        <div class="w-full px-16 py-5 ">
+          <div class="flex gap-2">
+            <p class="text-[#0C162D] font-medium text-[18px]">Learn From Today</p>
+            <div class="w-[74px] h-[32px] bg-white text-center"><p class="text-[#0C162D] font-medium text-[18px]">40% Of</p></div>
+          </div>
+          <h2 class="text-6xl text-[#0A0826]  font-bold leading-tight">Empowering Global <br>
+            Learners through Our <br>
+             <span class="text-[#3A9DD2]">Online Educative Stage.</span></h2>
+          <p class="  opacity-[80%] text-[#010B1E] text-[18px]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque <br> laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi.</p>
+          <div class=" flex gap-2 py-4 ">
+            <button class="btn-1 text-white hover:bg-black">Find The Course</button>
+            <button class="  btn-2 text-[#3A9DD2] hover:bg-black" >Learn More
+               <i class="fa-solid fa-arrow-right animate-pulse"></i> 
+              </button> 
+          </div>
+        </div>
+        <!--  -->
+        <div class=" px-16 py-24">
+          <img class="" src="/images/hero.png" alt="">
+          <img class="-mt-[27rem]" src="/images/headerImage.png" alt="">
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-- aboute-section -->
+   <section class="bg-[url('/images/aboute/Bg.png')]">
+      <div class="flex flex-col lg:flex-row">
+        <div class="py-16 px-24">
+          <div class="flex gap-2">
+            <img src="/images/Outline/academic-cap.png" alt="">
+            <h3 class="text-[#3A9DD2]">About Us</h3>
+          </div>
+          <h2 class="text-6xl text-[#0A0826] font-bold leading-tight">We Are Always <br>
+             confirm <span class="text-[#3A9DD2]">Best Course</span> <br>
+              For Your Learning. </h2>
+              <p class="  opacity-[80%] text-[#010B1E] text-[18px]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br>
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invenw tore.</p>
+                <br>
+            <h3 class="text-[20px] font-bold  text-[#010B1E] ">01. Presenter Control</h3>
+            <br>
+            <p class="  opacity-[80%] text-[#010B1E] text-[18px]">Inventore veritatis et quasi architecto beatae vitae dicta sunt explic abo enim <br>
+               ipsam voluptatem quia unde omnis iste natus error voluptas sit aspernatur </p>
+              <br>
+              <h3 class="text-[20px] font-bold  text-[#010B1E] ">01. Presenter Control</h3>
+              <br>
+              <p class="  opacity-[80%] text-[#010B1E] text-[18px]">Inventore veritatis et quasi architecto beatae vitae dicta sunt explic abo enim <br>
+                 ipsam voluptatem quia unde omnis iste natus error voluptas sit aspernatur </p>
+                <br>
+              <button class="btn-1 text-white">Admission Now <i class="fa-solid fa-arrow-right animate-pulse"></i>  </button>
+        </div>
+        <!-- images -->
+        <div class="py-16 px-16">
+          <div class="w-[72px] h-[72px] animate-pulse rounded-full bg-[#3A9DD2]"></div>
+          <img class="-mt-10 ml-8" src="/images/aboute/Image 1.png" alt="">
+          <div class="w-[95px] h-[95px] animate-pulse ml-[22rem] -mt-[12.5rem] rounded-full bg-[#3A9DD2]"></div>
+          <div class="w-[20px] h-[20px] animate-pulse mt-12 rounded-full bg-[#3A9DD2]"></div>
+          <div class="w-[20px] h-[20px] animate-pulse ml-[25.5rem] rounded-full bg-[#3A9DD2]"></div>
+
+          <div class=" flex flex-col lg:flex-row">
+           <div>
+            <img src="/images/aboute/Image 3 (1).png" alt="">
+            <div class="w-[95px] h-[95px] animate-pulse -ml-[2rem] -mt-[4rem] rounded-full bg-[#3A9DD2]"></div>
+           </div>
+            <div class=" lg:mt-10 ml-4">
+              <img src="/images/aboute/Image 2.png" alt="">
+
+              <div class="w-[95px] h-[95px] animate-pulse ml-[15rem] -mt-[4rem] rounded-full bg-[#3A9DD2]"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </section>
+   <!-- growing-section -->
+   <section class="bg-[url('/images/growing/Bg.png')] ">
+     <div class="flex flex-col">
+      <div>
+        <h1 class="text-white font-semibold text-[35px] text-center py-7">Educative is Partnered With <span class="text-black">20k+</span> Fastest Growing Companies</h1>
+      </div>
+      <div class="flex flex-col lg:flex-row gap-24 text-center px-20 py-7 ">
+        <img  class="w-[200px] h-[47px]" src="/images/growing/Group 158.png" alt="">
+        <img class="w-[150px] h-[71px]" src="/images/growing/Group 159.png" alt="">
+        <img class="w-[200px] h-[40px]" src="/images/growing/Group 160.png" alt="">
+        <img class="w-[200px] h-[48px] animate-pulse" src="/images/growing/Group 161.png" alt="">
+        <img class="w-[200px] h-[45px]" src="/images/growing/Group 162.png" alt="">
+        
+      </div>
+     </div>
+   </section>
+   <!-- exam-secation -->
+   <section class="bg-[#F4F1E9]">
+    <!-- title -->
+    <div class="py-20 px-16 ">
+      <div class="flex gap-2">
+        <img src="/images/Outline/academic-cap.png" alt="">
+        <h3 class="text-[#3A9DD2]">Live Courses</h3>
+      </div>
+      <h3 class="text-6xl text-[#0A0826] font-bold leading-tight py-3">Check Out Educative <br>
+         Features Win <span class="text-[#3A9DD2]">Any Exam.</span> </h3>
+       <div class=" lg:ml-[72rem]">
+        <button class="btn-2 w-[233px] ">Browse Study Courses  <i class="fa-solid fa-arrow-right animate-pulse"></i> </button>
+       </div>
+    </div>
+    <div>
+      <!-- card -->
+      <div class="grid lg:grid-cols-3 px-16 gap-5 grid-cols-1 md:grid-cols-1">
+        <div class="card w-[417px] h-[593px] bg-base-100 shadow py-3 ">
+          <img class="-mt-[1rem]" src="/images/exam/Image.png" alt="Shoes" />
+          <div class="card-body ">
+            <div class="card-actions justify-start">
+              <div>
+                <button class="btn text-white">$ 40</button>
+              </div>
+              <div class="rating flex gap-2 py-2">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]"  checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+              </div>
+              
+            </div>
+            <h4 class="font-semibold text-2xl py-1">Computer Management</h4>
+            <p class="font-normal">Lecturer <span class="text-[#3A9DD2]">Admin</span> In Technology</p>
+            <hr class="bg-[#3A9DD2] w-[336px] mt-10 border-blue-200">
+           
+            <div class="flex gap-10 mt-5">
+              <div class="flex gap-2">
+                <img class="w-[20px] h-[20px]" src="/images/exam/user.png" alt="">
+                <p>0</p>
+              </div>
+              <div class="flex gap-2">
+                <img class="w-[20px] h-[20px] animate-pulse" src="/images/exam/clock.png" alt="">
+                <p>16h 30m</p>
+              </div>
+              <div class="flex gap-2">
+                <img class="w-[20px] h-[20px]" src="/images/exam/book-open.png" alt="">
+                <p>5 Lessons</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card  w-[417px] h-[593px] bg-base-100 shadow py-3">
+         <img class="-mt-[1rem]" src="/images/exam/Image (1).png" alt="Shoes" />
+          <div class="card-body ">
+            <div class="card-actions justify-start">
+              <div>
+                <button class="btn text-white">$ 40</button>
+              </div>
+              <div class="rating flex gap-2 py-2">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]"  checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+              </div>
+              
+            </div>
+            <h4 class="font-semibold text-2xl py-1">Computer Management</h4>
+            <p class="font-normal">Lecturer <span class="text-[#3A9DD2]">Admin</span> In Technology</p>
+            <hr class="bg-[#3A9DD2] w-[336px] mt-10 border-blue-200">
+           
+            <div class="flex gap-10 mt-5">
+              <div class="flex gap-2">
+                <img class="w-[20px] h-[20px]" src="/images/exam/user.png" alt="">
+                <p>15</p>
+              </div>
+              <div class="flex gap-2">
+                <img class="w-[20px] h-[20px] animate-pulse" src="/images/exam/clock.png" alt="">
+                <p>16h 30m</p>
+              </div>
+              <div class="flex gap-2">
+                <img class="w-[20px] h-[20px]" src="/images/exam/book-open.png" alt="">
+                <p>10 Lessons</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card  w-[417px] h-[593px] bg-base-100 shadow py-3">
+         <img class="-mt-[1rem]" src="/images/exam/Image (2).png" alt="Shoes" />
+          <div class="card-body ">
+            <div class="card-actions justify-start">
+              <div>
+                <button class="btn text-white">$ 40</button>
+              </div>
+              <div class="rating flex gap-2 py-2">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#3A9DD2]"  checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+              </div>
+              
+            </div>
+            <h4 class="font-semibold text-2xl py-1">Computer Management</h4>
+            <p class="font-normal">Lecturer <span class="text-[#3A9DD2]">Admin</span> In Technology</p>
+            <hr class="bg-[#3A9DD2] w-[336px] mt-10 border-blue-200">
+           
+            <div class="flex gap-10 mt-5">
+              <div class="flex gap-2">
+                <img class="w-[20px] h-[20px]" src="/images/exam/user.png" alt="">
+                <p>20</p>
+              </div>
+              <div class="flex gap-2">
+                <img class="w-[20px] h-[20px] animate-pulse" src="/images/exam/clock.png" alt="">
+                <p>16h 30m</p>
+              </div>
+              <div class="flex gap-2">
+                <img class="w-[20px] h-[20px]" src="/images/exam/book-open.png" alt="">
+                <p>9 Lessons</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- chosse us -->
+   <section class="bg-[#F4F1E9]">
+   <div class="flex flex-col lg:flex-row">
+    <div class=" py-20 px-24 lg:ml-[8rem]  ">
+      <div class="mt-[3rem]">
+        <img class="ml-[23rem] absolute" src="/images/choose/Dot.png" alt="">
+        <div>
+          <img class="py-[4rem]" src="/images/choose/image 1.png" alt="">
+          <div class=" flex gap-5 w-[416px] h-[132px] absolute btn-2 bg-white -mt-[16rem] -ml-[5rem] border-blue-400 rounded-sm">
+            <div class="mt-4 animate-bounce">
+             <a href=""> <img src="/images/choose/Icon.png" alt=""></a>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-xl">Do You Have a Any Question? </h4>
+              <a href="" class="font-semibold text-2xl text-[#3A9DD2]">+123 456 789-556</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- why-choose -->
+    <div class="py-20 px-20 lg:px-0 lg:py-32 ">
+      <div class="flex gap-2">
+        <img src="/images/Outline/academic-cap.png" alt="">
+        <h3 class="text-[#3A9DD2]">Why Choose Us</h3>
+      </div>
+      <h3 class="text-6xl text-[#0A0826] font-bold leading-tight py-3">Educative To Our <br> Constructing an  <br>
+         <span class="text-[#3A9DD2]"> Brighter Tomorrow.</span> </h3>
+
+      <div class="py-3">
+        <div class="flex gap-6 py-6">
+          <div class="w-[65px] h-[65px] animate-pulse  rounded-full bg-[#3A9DD2]"> <h2 class="font-semibold text-[35px] text-white text-center py-1">01</h2></div>
+          <div>
+            <h1 class="font-semibold text-2xl">Benefits</h1>
+            <p class="font-normal text-sm text-[#3D3950]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invenw tore.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-6 py-6">
+          <div class="w-[65px] h-[65px] animate-pulse  rounded-full bg-[#3A9DD2]"> <h2 class="font-semibold text-[35px] text-white text-center py-1">02</h2></div>
+          <div>
+            <h1 class="font-semibold text-2xl">Self Development</h1>
+            <p class="font-normal text-sm text-[#3D3950]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invenw tore.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-6 py-6">
+          <div class="w-[65px] h-[65px] animate-pulse  rounded-full bg-[#3A9DD2]"> <h2 class="font-semibold text-[35px] text-white text-center py-1">03</h2></div>
+          <div>
+            <h1 class="font-semibold text-2xl">Skill Master</h1>
+            <p class="font-normal text-sm text-[#3D3950]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invenw tore.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   </section>
+   <!-- from section -->
+    <section>
+      <div class=" bg-[#3A9DD2] flex flex-col lg:flex-row gap-8">
+        <div class="px-16 py-12">
+          <div class="flex gap-2">
+            <img  src="/images/from/academic-cap.png" alt="">
+            <h3 class="text-white font-medium text-xl">Gei In Touch</h3>
+          </div>
+          <h1 class="text-6xl text-[#0A0826] font-bold leading-tight py-3"> Educative To Our <br> Constructing an</h1>
+  
+          <div>
+            <div class="flex flex-col lg:flex-row gap-4">
+              <input type="text" placeholder="Full Name" class="input input-bordered border-none input-warning bg-[#010B1E80] w-full max-w-xs text-white" />
+              <input type="text" placeholder="Phone Number" class="input input-bordered border-none input-warning bg-[#010B1E80] w-full max-w-xs text-white" />
+            </div>
+            <br>
+            <div class="flex flex-col lg:flex-row gap-4">
+              <input type="text" placeholder="Email Address" class="input input-bordered border-none input-warning bg-[#010B1E80] w-full max-w-xs text-white" />
+              <input type="text" placeholder="Subject" class="input input-bordered border-none input-warning bg-[#010B1E80] w-full max-w-xs text-white" />
+            </div>
+            <br>
+            
+            <div class="flex">
+              <input  type="text" placeholder="Massage" class="input input-bordered border-none input-warning bg-[#010B1E80] w-full max-w-[650px] h-[166px] text-white" />
+            </div>
+            
+          </div>
+          <br>
+          <button class="btn-1 w-[220px] bg-black text-white">Get Started Now  <i class="fa-solid fa-arrow-right animate-pulse"></i>  </button>
+        </div>
+        <!--  -->
+        <div class="bg-black ml-12 lg:ml-[12rem]">
+          <img src="/images/from/Image.png" alt="">
+            <a class=" animate-pulse w-[70px] absolute -mt-[24rem] ml-[17.8rem] lg:ml-[23rem] lg:-mt-[30rem]" href=""><img src="/images/from/Play.png" alt=""></a>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial section -->
+
+    <section class="bg-[url('/images/testimonial/Bg.png')] bg-[#F4F1E9]">
+      <div class="flex flex-col items-center py-24">
+        <div class="flex gap-2 ">
+          <img src="/images/Outline/academic-cap.png" alt="">
+          <h3 class="text-[#3A9DD2]">Our Testimonial</h3>
+        </div>
+        <h3 class="text-6xl text-[#0A0826] font-bold leading-tight py-3">What Our Client’s <br> Say For Something </h3>
+      </div>
+
+      <div class="px-16 pb-16 flex flex-col lg:flex-row">
+          <div >
+            <img src="/images/testimonial/Image.png" alt="">
+
+          </div>
+          <div class="py-4 flex-1 lg:mt-[6rem] lg:-ml-[8rem]" >
+            
+           <div>
+              <img  src="/images/testimonial/Bg1.png" alt="">
+           </div>
+            
+            <div class=" flex flex-col px-4 py-2  -mt-[20rem] lg:-mt-[22rem] lg:ml-[1rem]">
+              <i class="fa-solid fa-quote-left text-white text-xl py-4 lg:py-0"></i>
+              <p class=" font-medium lg:text-xl text-white py-2 lg:py-6">There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected <br> humour, or randomized words which don't look even slightly <br> believable. If you are going to use a passage of Lorem Ipsum, you <br> need to be sure there isn't anything embarrassing hidden. </p>
+            </div>
+            <div class=" flex justify-start px-4 lg:px-8 ">
+              <img  src="/images/testimonial/Image (1).png" alt="">
+            </div>
+            <div class="flex gap-1 -mt-[4rem] ml-[23rem] lg:-mt-[3rem] lg:ml-[32rem] ">
+                <div class="w-[10px] h-[10px]  mt-12 rounded-full bg-[#010B1E]"></div>
+                <div class="w-[10px] h-[10px] animate-pulse mt-12 rounded-full bg-[#010B1E]"></div>
+                <div class="w-[10px] h-[10px] animate-pulse mt-12 rounded-full bg-[#010B1E]"></div>
+                <div class="w-[10px] h-[10px] animate-pulse mt-12 rounded-full bg-[#010B1E]"></div>
+                <div class="w-[10px] h-[10px] animate-pulse mt-12 rounded-full bg-[#010B1E]"></div>
+                <div class="w-[10px] h-[10px] animate-pulse mt-12 rounded-full bg-[#010B1E]"></div>
+            </div>
+            <div class="w-[308px] h-[281px] bg-[#010B1E] rounded-lg -mt-[14rem] ml-[15rem] lg:-mt-[14rem] lg:ml-[23rem]">
+
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- best-teacher-section -->
+    <section>
+      <div class="flex flex-col items-center py-24">
+        <div class="flex gap-2 ">
+          <img src="/images/Outline/academic-cap.png" alt="">
+          <h3 class="text-[#3A9DD2] font-medium text-xl">Our Best Teacher</h3>
+        </div>
+        <h3 class="text-6xl text-[#0A0826] font-bold leading-tight py-3">We Are Provided Best  <br> <span class="text-[#3A9DD2] flex justify-center">Expert Teacher</span> </h3>
+      </div>
+      
+      <div>
+        <div class="grid lg:grid-cols-3 lg:gap-5 px-16 gap-14 grid-cols-1 md:grid-cols-1">
+          <div class="card w-[417px] h-[593px] bg-base-100 shadow py-3 pb-0 rounded-lg">
+            <img class="-mt-[1rem]" src="/images/best-teacher/Image.png" />
+            <div class="card-body bg-[#3A9DD2] rounded-b-lg">
+              <div>
+                <img class="-mt-[16.6rem] ml-[9.6rem]" src="/images/best-teacher/Bg.png" alt="">
+                <div class=" flex flex-col gap-2 -mt-[10rem] ml-[10.3rem]">
+                  <a class="animate-bounce" href=""><img src="/images/best-teacher/Skype.png" alt=""></a>
+                  <a class="animate-bounce" href=""><img src="/images/best-teacher/Facebook Icon.png" alt=""></a>
+                  <a class="animate-bounce" href=""><img src="/images/best-teacher/Instagram.png" alt=""></a>
+                  <a class="animate-bounce" href=""><img src="/images/best-teacher/In.png" alt=""></a>
+                </div>
+                <div class=" mt-[3.3rem] flex justify-center animate-pulse">
+                  <a href=""><img src="/images/best-teacher/Share icon.png" alt=""></a>
+                </div>
+              </div>
+                <div class=" flex flex-col items-center ">
+                  <h2 class=" font-bold text-2xl text-white py-1">Guy Hawkins</h2>
+                  <p class="font-medium text-xl text-white">Teacher</p>
+                </div>
+            </div>
+          </div>
+          
+          <div class="card w-[417px] h-[593px] bg-base-100 shadow py-3 pb-0 rounded-lg">
+              <img class="-mt-[1rem]" src="/images/best-teacher/Image (2).png" />
+              <div class="card-body bg-[#0C162D] rounded-b-lg ">
+
+                    <div class=" -mt-[3.3rem] flex justify-center animate-pulse">
+                      <a href=""><img src="/images/best-teacher/Share icon.png" alt=""></a>
+                    </div>
+                    <div class=" flex flex-col items-center py-1 ">
+                      <h2 class=" font-bold text-2xl text-[#3A9DD2] py-1">Jacob Jones</h2>
+                      <p class="font-medium text-xl text-white">Teacher</p>
+                    </div>
+              </div> 
+            </div>
+
+               <div class="card w-[417px] h-[593px] bg-base-100 shadow py-3 pb-0 rounded-lg">
+                  <img class="-mt-[1rem]" src="/images/best-teacher/Image (3).png" />
+                  <div class="card-body bg-[#3A9DD2] rounded-b-lg ">
+
+                    <div class=" -mt-[3.3rem] flex justify-center animate-pulse">
+                      <a href=""><img src="/images/best-teacher/Share icon.png" alt=""></a>
+                    </div>
+                    <div class=" flex flex-col items-center py-1 ">
+                      <h2 class=" font-bold text-2xl text-white py-1">Kathryn Murphy</h2>
+                      <p class="font-medium text-xl text-white">Teacher</p>
+                    </div>
+                  </div> 
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section -blog-->
+    <section class="bg-[#F4F1E9] -mt-[7.5rem]">
+      <!-- title -->
+      <div class=" flex flex-col py-40">
+        <div class="flex flex-col items-center py-24">
+          <div class="flex gap-2 ">
+            <img src="/images/Outline/academic-cap.png" alt="">
+            <h3 class="text-[#3A9DD2] font-medium text-xl">Our Blog</h3>
+          </div>
+          <h3 class="text-6xl text-[#0A0826] font-bold leading-tight py-3">Reads Our Latest  <br> <span class="text-[#3A9DD2] flex justify-center">News & Blog</span> </h3>
+        </div>
+        <!-- card -->
+        <div class="grid lg:grid-cols-3 px-16 gap-5 grid-cols-1 md:grid-cols-1">
+            <div class="card w-[417px] h-[593px] bg-base-100 shadow py-3 ">
+              <img class="-mt-[1rem]" src="/images/blog/Image.png" alt="Shoes" />
+              <div class="card-body  ">
+               
+                <div class="flex gap-10 mt-5">
+                  <div class="flex gap-2">
+                    <img class="w-[20px] h-[20px]" src="/images/blog/user-circle.png" alt="">
+                    <p >Admin</p>
+                  </div>
+                  <div class="flex gap-2">
+                    <img class="w-[20px] h-[20px] animate-pulse" src="/images/exam/clock.png" alt="">
+                    <p>January 16, 2024</p>
+                  </div>
+                </div>
+                <h4 class="font-semibold text-xl py-1">Designing Users Across Interview <br> With Jemy</h4>
+                <button class="font-semibold underline -ml-[15.6rem]">Read More <i class="fa-solid fa-arrow-right animate-pulse"></i></button>
+              </div>
+            </div>
+        <div class="card  w-[417px] h-[593px] bg-base-100 shadow py-3">
+         <img class="-mt-[1rem]" src="/images/blog/Image (1).png" alt="Shoes" />
+         <div class="card-body ">
+               
+          <div class="flex gap-10 mt-5">
+            <div class="flex gap-2">
+              <img class="w-[20px] h-[20px]" src="/images/blog/user-circle.png" alt="">
+              <p >Admin</p>
+            </div>
+            <div class="flex gap-2">
+              <img class="w-[20px] h-[20px] animate-pulse" src="/images/exam/clock.png" alt="">
+              <p>January 16, 2024</p>
+            </div>
+          </div>
+          <h4 class="font-semibold text-xl py-1">Month Web Development Update React Hooking.</h4>
+          <button class="font-semibold underline -ml-[15.6rem]">Read More <i class="fa-solid fa-arrow-right animate-pulse"></i></button>
+        </div>
+        </div>
+        <div class="card  w-[417px] h-[593px] bg-base-100 shadow py-3">
+         <img class="-mt-[1rem]" src="/images/blog/Image (2).png " alt="Shoes" />
+         <div class="card-body ">
+               
+          <div class="flex gap-10 mt-5">
+            <div class="flex gap-2">
+              <img class="w-[20px] h-[20px]" src="/images/blog/user-circle.png" alt="">
+              <p >Admin</p>
+            </div>
+            <div class="flex gap-2">
+              <img class="w-[20px] h-[20px] animate-pulse" src="/images/exam/clock.png" alt="">
+              <p>January 16, 2024</p>
+            </div>
+          </div>
+          <h4 class="font-semibold text-xl py-1">Get The Best Courses & Upgrade <br> Your Skills </h4>
+          <button class="font-semibold underline -ml-[15.6rem]">Read More <i class="fa-solid fa-arrow-right animate-pulse"></i></button>
+        </div>
+        </div>
+      </div> 
+      </div>
+    </section>
+  </main>
+  <footer class="bg-[#0C162D]">
+    <div class=" flex flex-col lg:flex-row gap-24 px-16">
+      <div class=" py-24 ">
+        <div class="flex gap-3 py-4">
+          <img class="animate-spin" src="/images/footer/Logo.png" alt="">
+          <h3 class="font-bold text-white text-2xl"><span class="text-[#3A9DD2]">Edu</span>cative</h3>
+        </div>
+        <p class="text-[#F4F1E9] py-2">Subscribe to out newsletter today to <br> receive latest news administrate cost <br> effective for tactical data.</p>
+        <div class=" flex gap-2 py-8">
+         <a class="animate-pulse" href=""> <img src="/images/best-teacher/Instagram.png" alt=""></a>
+         <a class="animate-pulse"  href=""> <img src="/images/best-teacher/Facebook Icon.png" alt=""></a>
+         <a class="animate-pulse"  href=""> <img src="/images/best-teacher/Skype.png" alt=""></a>
+         <a class="animate-pulse"  href=""> <img src="/images/best-teacher/In.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="py-24 px-12">
+        <h2 class="font-semibold text-2xl py-4 text-white">About Us</h2>
+        <div>
+          <div class="flex flex-col gap-3">
+            <div class="flex gap-2">
+              <i class="fa-solid fa-chevron-right text-white"></i>
+              <a class="text-white -mt-1" href="">About Us</a>
+            </div>
+            <div class="flex gap-2">
+              <i class="fa-solid fa-chevron-right text-white"></i>
+              <a class="text-white -mt-1" href="">Live Courses</a>
+            </div>
+            <div class="flex gap-2">
+              <i class="fa-solid fa-chevron-right text-white"></i>
+              <a class="text-white -mt-1" href="">Team</a>
+            </div>
+            <div class="flex gap-2">
+              <i class="fa-solid fa-chevron-right text-white"></i>
+              <a class="text-white -mt-1" href="">Blog</a>
+            </div>
+            <div class="flex gap-2">
+              <i class="fa-solid fa-chevron-right text-white"></i>
+              <a class="text-white -mt-1" href="">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-24 px-12">
+        <h2 class="font-semibold text-2xl py-4 text-white">Quick Service</h2>
+        <div>
+          <div class="flex flex-col gap-3">
+            <div class="flex gap-2">
+              <i class="fa-solid fa-chevron-right text-white"></i>
+              <a class="text-white -mt-1" href="">Templates</a>
+            </div>
+            <div class="flex gap-2 hover:duration-300 hover:gap-3 ">
+              <i class="fa-solid fa-chevron-right text-white"></i>
+              <a class="text-white -mt-1" href="">Blog & Article</a>
+            </div>
+            <div class="flex gap-2">
+              <i class="fa-solid fa-chevron-right text-white"></i>
+              <a class="text-white -mt-1" href="">Integrations</a>
+            </div>
+            <div class="flex gap-2">
+              <i class="fa-solid fa-chevron-right text-white"></i>
+              <a class="text-white -mt-1" href="">Webinars</a>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class=" px-12 py-24 ">
+        <h2 class="font-semibold text-2xl py-4 text-white">Newsletter</h2>
+        <div class="flex gap-2 py-2">
+          <div> <img src="/images/footer/06.png" alt=""></div>
+         <div> <img src="/images/footer/05.png" alt=""></div>
+         <div> <img src="/images/footer/04.png" alt=""></div>
+        </div>
+          <div class="flex gap-2">
+          <div><img src="/images/footer/03.png" alt=""></div>
+          <div><img src="/images/footer/02.png" alt=""></div>
+          <div><img src="/images/footer/01.png" alt=""></div>
+          </div>
+      </div>
+      
+    </div>
+    <div class=" flex justify-center text-white font-normal text-sm py-4">
+      Copyright © Educative2024. All rights reserved
+    </div>
+  </footer>
+</head>
+</html>
